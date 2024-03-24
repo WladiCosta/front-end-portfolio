@@ -25,7 +25,7 @@ const HeroContent = () => {
 
             <motion.div
              variants={slideInFromLeft(0.5)}
-             className='flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto'
+             className='flex flex-col gap-6 mt-6 text-4xl md:text-6xl text-bold text-white max-w-[600px] w-auto h-auto '
             >
               <span>
                 Oferecendo a
@@ -36,7 +36,7 @@ const HeroContent = () => {
 
             <motion.p 
             variants={slideInFromLeft(0.8)}
-            className='text-lg text-gray-400 my-5 max-w-[600px]'>
+            className='text-lg text-gray-400 my-5 sm:text-sm max-w-[600px]'>
                 Sou um Desenvolvedor Front-End com experiência em criação de Websites dinâmicos e responsivos.
                 Explore meus projetos e habilidades.
             </motion.p>
