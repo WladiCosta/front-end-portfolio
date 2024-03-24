@@ -7,8 +7,8 @@ import Image from "next/image";
 
 const Encryption = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
-      <div className="absolute w-auto h-auto top-0 z-[5]">
+    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full mt-[-60px]">
+      <div className="absolute w-auto h-auto top-0 z-[5] ">
         <motion.div
           variants={slideInFromTop}
           className="text-[40px] font-medium text-center text-gray-200"
@@ -22,20 +22,20 @@ const Encryption = () => {
         </motion.div>
       </div>
 
-      <div className="flex flex-col items-center justify-center translate-y-[-50px] mt-[115px] absolute z-[20] w-auto h-auto">
+      <div className="flex flex-col items-center justify-center translate-y-[-50px] mt-[-18px] md:mt-[280px] absolute z-[20] w-auto h-auto">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto">
           <Image
             src="/LockTop.png"
             alt="Lock top"
-            width={50}
-            height={50}
+            width={40}
+            height={40}
             className="w-[50px] translate-y-5 transition-all duration-200 group-hover:translate-y-11"
           />
           <Image
             src="/LockMain.png"
             alt="Lock Main"
-            width={70}
-            height={70}
+            width={60}
+            height={60}
             className=" z-10"
           />
         </div>
@@ -45,7 +45,7 @@ const Encryption = () => {
         </div>
       </div>
       <div className="absolute z-[20] bottom-[10px] px-[5px]">
-        <div className="cursive text-[20px] font-medium text-center text-gray-300">
+        <div className="cursive text-[20px] font-medium text-center text-gray-300 mt-[-200px] sm:mt-[200px]">
             Garanta a segurança dos seus dados com criptografia total.
         </div>
       </div>
@@ -57,7 +57,7 @@ const Encryption = () => {
           autoPlay
           playsInline
           preload="false"
-          className="w-full h-auto"
+          className="w-full h-auto mt-[-150px] sm:mt-[150px]"
           src="/encryption.webm/"
         />
       </div>
