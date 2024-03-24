@@ -1,13 +1,14 @@
+"use client"
+import Link from "next/link";
 import React from "react";
 import {
-  RxDiscordLogo,
   RxGithubLogo,
   RxInstagramLogo,
-  RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
+import { Button } from "semantic-ui-react";
 
-import { FaYoutube } from "react-icons/fa";
+;
 
 const Footer = () => {
   return (
@@ -36,10 +37,9 @@ const Footer = () => {
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Contato</div>
-                   <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                     
-                        <span className="text-[15px] ml-[6px]">WhatsApp: +55 51 999633181</span>    
-                    </p>
+                        <Link href="https://wa.me/5551999633181" className="text-[15px] ml-[6px] cursor-pointer">
+                           <Button> WhatsApp: +55 51 999633181 </Button>
+                        </Link>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
                         <span className="text-[15px] ml-[6px]">wladimircosta.dev@gmail.com</span>    

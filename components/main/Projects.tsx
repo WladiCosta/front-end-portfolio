@@ -8,11 +8,11 @@ const Projects = () => {
             Meus Projetos
         </h1>
         <div className='h-full w-full flex flex-col md:flex-row gap-10 px-10'>
-        <ProjectCards
-          src="/hoobank.png"
-          title="Hoobank - Digital Bank"
-          description="O Hoobank é um projeto de estudo que utiliza funcionalidades avançadas do Next.js 13, evidenciando meu compromisso com o aprimoramento profissional."
-        />
+          <ProjectCards
+            src="/hoobank.png"
+            title="Hoobank - Digital Bank"
+            description="O Hoobank é um projeto de estudo que utiliza funcionalidades avançadas do Next.js 13, evidenciando meu compromisso com o aprimoramento profissional."
+          />
         <ProjectCards
           src="/pearson.png"
           title="Pearson Hardman - Advogados"

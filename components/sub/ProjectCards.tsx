@@ -16,7 +16,7 @@ const ProjectCards = ({src, title, description}: Props) => {
         alt={title}
         width={1000}
         height={1000}
-        className='w-full object-contain' />
+        className='w-full object-contain cursor-pointer' />
         
         <div className='relative p-4'>
             <h1 className='text-2xl font-semibold text-white'>{title}</h1>
