@@ -30,7 +30,7 @@ const Navbar = () => {
                     {Socials.map((social)=> (
                      <div>
                         
-                        <Link href={social.link} key={social.name}></Link>
+                        <Link href={social.link} key={social.index}></Link>
                     <Image 
                         src={social.src}
                         alt={social.name}

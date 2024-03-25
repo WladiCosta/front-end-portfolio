@@ -84,6 +84,7 @@ export const Skill_data = [
   
   export const Socials = [
     {
+      index: 1,
       name: "Instagram",
       src: "/instagram.svg",
       link: "https://www.instagram.com/wladimir.mcosta?igsh=MWZ3dDg1NGZibzBteA==",
@@ -91,6 +92,7 @@ export const Skill_data = [
       heigth: 24
     },
     {
+      index: 2,
       name: "Github",
       src: "/GitHubW.png",
       link: "https://github.com/WladiCosta",
@@ -98,6 +100,7 @@ export const Skill_data = [
       heigth: 48
     },
     {
+      index: 3,
       name: "Linkedin",
       src: "/linkedin.svg",
       link: "https://www.linkedin.com/in/wladimircosta-dev/",
