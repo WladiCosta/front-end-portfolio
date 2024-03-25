@@ -28,7 +28,9 @@ const Navbar = () => {
             </div>
             <div className='flex flex-row gap-3'>
                 {Socials.map((social)=> (
-                   <Link href={social.link}> 
+                   <Link href={social.link}
+                   key={social.name}
+                   > 
                     <Image 
                         src={social.src}
                         alt={social.name}
