@@ -6,6 +6,7 @@ import {
   RxInstagramLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
+import { FaWhatsapp } from "react-icons/fa";
 import { Button } from "semantic-ui-react";
 
 ;
@@ -35,15 +36,12 @@ const Footer = () => {
                         <span className="text-[15px] ml-[6px]">Linkedin</span>    
                     </p>
                 </div>
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start ">
                     <div className="font-bold text-[16px]">Contato</div>
-                        <Link href="https://wa.me/5551999633181" className="text-[15px] ml-[6px] cursor-pointer">
-                           <Button> WhatsApp: +55 51 999633181 </Button>
+                        
+                        <Link href="https://wa.me/5551999633181" className=" text-[15px] ml-[6px] flex flex-row cursor-pointer z-[100]">
+                        <FaWhatsapp /><Button className="ml-[6px] mt-[-3px]">WhatsApp</Button>
                         </Link>
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                  
-                        <span className="text-[15px] ml-[6px]">wladimircosta.dev@gmail.com</span>    
-                    </p>
                 </div>
             </div>
 

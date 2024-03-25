@@ -20,7 +20,7 @@ const Navbar = () => {
             </a>
             <div className='w-[500px] h-full flex flex-row items-center justify-between md:mr-20'>
                 <div className='flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200'>
-                    <a href="#about-me" className='cursor-pointer text-[13px] sm:text-[16px] '>Sobre</a>
+                    <a href="#about-me" className='cursor-pointer text-[13px] sm:text-[16px] '>Inicio</a>
                     <a href="#skills" className='cursor-pointer text-[13px] sm:text-[16px]'>Skills</a>
                     <a href="#projects" className='cursor-pointer text-[13px] sm:text-[16px]'>Projetos</a>
                 </div>

@@ -43,12 +43,12 @@ const HeroContent = () => {
 
             <motion.a
             variants={slideInFromLeft(1)}
+            href='https://wa.me/5551999633181'
             className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'>
-                Saiba Mais!
+                Fale Comigo!
             </motion.a>
 
-            
-
+  
         </div>
         <motion.div
             variants={slideInFromRight(0.8)}
