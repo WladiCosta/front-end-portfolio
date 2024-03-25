@@ -22,18 +22,18 @@ const Footer = () => {
                     <div className="font-bold text-[16px]">Comunidades</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxGithubLogo />
-                        <span className="text-[15px] ml-[6px]">Github</span>    
+                        <Link href="https://github.com/WladiCosta" className="text-[15px] ml-[6px] z-20">Github</Link>    
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                     <div className="font-bold text-[16px]">Social Media</div>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxInstagramLogo />
-                        <span className="text-[15px] ml-[6px]">Instagram</span>    
+                        <Link href="https://www.instagram.com/wladimir.mcosta?igsh=MWZ3dDg1NGZibzBteA==" className="text-[15px] ml-[6px] z-20">Instagram</Link >    
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                         <RxLinkedinLogo />
-                        <span className="text-[15px] ml-[6px]">Linkedin</span>    
+                        <Link href="https://www.linkedin.com/in/wladimircosta-dev/" className="text-[15px] ml-[6px] z-20">Linkedin</Link>    
                     </p>
                 </div>
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start ">

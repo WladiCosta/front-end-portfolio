@@ -1,3 +1,5 @@
+
+
 export const Skill_data = [
     {
       skill_name: "Html 5",
@@ -84,14 +86,23 @@ export const Skill_data = [
     {
       name: "Instagram",
       src: "/instagram.svg",
+      link: "https://www.instagram.com/wladimir.mcosta?igsh=MWZ3dDg1NGZibzBteA==",
+      width: 24,
+      heigth: 24
     },
     {
-      name: "Facebook",
-      src: "/facebook.svg",
+      name: "Github",
+      src: "/GitHubW.png",
+      link: "https://github.com/WladiCosta",
+      width: 45 ,
+      heigth: 48
     },
     {
       name: "Linkedin",
       src: "/linkedin.svg",
+      link: "https://www.linkedin.com/in/wladimircosta-dev/",
+      width: 24 ,
+      heigth: 24
     },
   ];
   
